@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Privacy Toolkit</title>
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Social Media Privacy Toolkit</h1>
+
+    <p>Welcome to our Digital Footprint Toolkit!</p>
+
+    <h2>Protect Your Online Privacy</h2>
+
+    <p>Learn how to stay safe on social media.</p>
+
+    <h3>Privacy Tips</h3>
+
+    <ul>
+        <li>Use strong passwords.</li>
+        <li>Keep your personal information private.</li>
+        <li>Do not share your live location publicly.</li>
+        <li>Enable two-factor authentication.</li>
+        <li>Think before posting photos or comments.</li>
+    </ul>
+    
+<hr>
+
+<h2>My Privacy Checklist</h2>
+<p>Select the privacy practices you follow.</p>
+
+<form id="privacyForm">
+    <label>
+        <input type="checkbox" class="privacy-item">
+        My social media accounts have suitable privacy settings.
+    </label>
+
+    <label>
+        <input type="checkbox" class="privacy-item">
+        I avoid sharing my live location publicly.
+    </label>
+
+    <label>
+        <input type="checkbox" class="privacy-item">
+        I use strong, unique passwords.
+    </label>
+
+    <label>
+        <input type="checkbox" class="privacy-item">
+        I have enabled two-factor authentication.
+    </label>
+
+    <label>
+        <input type="checkbox" class="privacy-item">
+        I review old posts and personal information.
+    </label>
+
+    <button type="submit">Calculate Privacy Score</button>
+</form>
+
+<h3 id="result">Your score will appear here.</h3>
+<p id="advice"></p>
+
+<hr>
+
+<h2>Digital Footprint Assessment</h2>
+<p>Answer these questions about your online habits.</p>
+
+<form id="footprintForm">
+    <label>
+        Do you share personal information publicly?
+        <select class="risk-item">
+            <option value="0">No</option>
+            <option value="2">Sometimes</option>
+            <option value="3">Yes</option>
+        </select>
+    </label>
+
+    <label>
+        Do you post your live location publicly?
+        <select class="risk-item">
+            <option value="0">No</option>
+            <option value="2">Sometimes</option>
+            <option value="3">Yes</option>
+        </select>
+    </label>
+
+    <label>
+        Do you accept friend requests from strangers?
+        <select class="risk-item">
+            <option value="0">No</option>
+            <option value="1">Sometimes</option>
+            <option value="2">Yes</option>
+        </select>
+    </label>
+
+    <label>
+        Do you review your old posts?
+        <select class="risk-item">
+            <option value="0">Yes, regularly</option>
+            <option value="1">Sometimes</option>
+            <option value="2">Never</option>
+        </select>
+    </label>
+
+    <button type="submit">Assess My Digital Footprint</button>
+</form>
+
+<h3 id="riskResult">Your assessment will appear here.</h3>
+<ul id="recommendations"></ul>
+
+<hr>
+
+<h2>Social Media Privacy Guide</h2>
+<p>Follow these tips to protect your digital identity.</p>
+
+<div class="tips-container">
+    <div class="tip-card">
+        <h3>Instagram</h3>
+        <p>Set your account to private and review tagged posts.</p>
+        <a href="https://privacycenter.instagram.com/" target="_blank" rel="noopener noreferrer">Privacy Guide</a>
+    </div>
+
+    <div class="tip-card">
+        <h3>Facebook</h3>
+        <p>Review audience settings and control who sees your posts.</p>
+        <a href="https://www.facebook.com/privacy/checkup/" target="_blank" rel="noopener noreferrer">Privacy Checkup</a>
+    </div>
+
+    <div class="tip-card">
+        <h3>Google Account</h3>
+        <p>Review security settings and connected applications.</p>
+        <a href="https://myaccount.google.com/security-checkup" target="_blank" rel="noopener noreferrer">Security Checkup</a>
+    </div>
+</div>
+
+<hr>
+
+<h2>Online Safety Reminders</h2>
+<ul>
+    <li>Never share your password or OTP.</li>
+    <li>Think before posting photos and comments.</li>
+    <li>Check links before clicking them.</li>
+    <li>Enable two-factor authentication.</li>
+</ul>
+
+<hr>
+
+<h2>About This Project</h2>
+<p>
+    The Social Media Privacy and Digital Footprint Toolkit
+    helps users understand online privacy risks and develop
+    safer social media habits.
+</p>
+
+<h2>Project Objectives</h2>
+<ul>
+    <li>Improve awareness of online privacy.</li>
+    <li>Assess digital footprint habits.</li>
+    <li>Provide personalized educational recommendations.</li>
+    <li>Promote safe and responsible social media use.</li>
+</ul>
+
+<h2>How It Works</h2>
+<ol>
+    <li>Open the privacy toolkit.</li>
+    <li>Complete the privacy checklist.</li>
+    <li>Answer the digital footprint questions.</li>
+    <li>View the risk score and recommendations.</li>
+    <li>Follow the privacy guides to improve online safety.</li>
+</ol>
+
+
+<script src="script.js"></script>
+</body>
+
+
+</body>
+</html>
